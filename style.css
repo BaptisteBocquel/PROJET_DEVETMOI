@@ -1,0 +1,44 @@
+/* CSS GENERAL */
+
+body{
+    width :90%;
+    margin: 0 auto; /* centre tout le site */
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    border : 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    width : 20%;
+    height : 100px;
+    background-image: url("Images/logo_long.png");
+    background-size : cover;
+}
+
+nav{
+    width: 20%;
+}
+
+li{
+    display : inline;
+}
+
+li a{
+    display: inline-block;
+    margin-right : 20px;
+}
+
