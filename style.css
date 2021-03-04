@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    width :90%;
-    margin: 0 auto; /* centre tout le site */
+    width :100%;
+    margin: 0 auto; /* centre tout le site si on change le width */
 }
 
 *{
@@ -34,15 +34,15 @@ header{
 }
 
 
-nav{
+header nav{
     width: 20%;
 }
 
-li{
+header li{
     display : inline;
 }
 
-li a{
+header li a{
     display: inline-block;
     margin-right : 20px;
 }
@@ -83,6 +83,7 @@ li a{
     align-items: center;
     text-align:center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #texte_presentation p:first-child{
@@ -150,4 +151,54 @@ li a{
 
 .citation blockquote{
     margin-bottom : 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #5b359d;
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+footer a{
+    color: white;
+}
+
+#texte_fin{
+    text-align:center;
+    margin-top: 20px;
+}  
+
+#reseaux{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#reseaux div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+i{
+    font-size: 30px;
+}
+
+#navigation_footer{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#navigation_footer ul{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#navigation_footer p{
+    margin-top: 10px;
+    margin-left: 30px;
 }
