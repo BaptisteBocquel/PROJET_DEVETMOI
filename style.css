@@ -36,6 +36,7 @@ header{
 
 header nav{
     width: 20%;
+    text-align: right;
 }
 
 header li{
