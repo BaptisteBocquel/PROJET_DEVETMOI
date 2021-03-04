@@ -1,5 +1,7 @@
 /* CSS GENERAL */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     width :90%;
     margin: 0 auto; /* centre tout le site */
@@ -9,6 +11,7 @@ body{
     margin : 0;
     padding : 0;
     border : 0;
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
@@ -23,11 +26,13 @@ header{
     align-items: center;
 }
 #logo{
-    width : 20%;
+    width : 400px;
     height : 100px;
     background-image: url("Images/logo_long.png");
-    background-size : cover;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
+
 
 nav{
     width: 20%;
@@ -42,3 +47,107 @@ li a{
     margin-right : 20px;
 }
 
+/* Image présentation */
+
+#presentation{
+    height : 600px;
+    background-image: url("Images/backgroung_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+#logo_presentation{
+    width:150px;
+    height: 50px;
+    background-image: url("Images/logo_long.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#presentation p{
+    color: white;
+    font-size: 18px;
+    margin-top : 20px;
+}
+
+/* Texte présentation */
+
+#texte_presentation{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    margin-top: 20px;
+}
+
+#texte_presentation p:first-child{
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+#image_presentation{
+    display:flex;
+    justify-content: center;
+    width: 60%;
+   
+}
+
+.image_pres_choix{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align:center;
+}
+
+.image_pres_choix p{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.image_pres_choix h2{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logo_graphisme{
+    width: 50px;
+    height: 50px;
+    background-image: url("Images/graphic-design.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#logo_strategie{
+    width: 50px;
+    height: 50px;
+    background-image: url("Images/strategie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#logo_illustrations{
+    width: 50px;
+    height: 50px;
+    background-image: url("Images/illustrations.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.citation{
+    margin-top: 40px;
+    width: 40%;
+}
+
+.citation blockquote{
+    margin-bottom : 10px;
+}
